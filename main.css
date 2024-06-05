@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1,
+section h2,
+section h3,
+section h5,
+section h6,
+form button {
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(155, 148, 255);
+}
+header {
+    padding: 16px 0;
+    background-color: rgb(87, 85, 211);
+    color: rgb(255, 209, 125);
+}
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+header nav li a {
+    color: rgb(255, 209, 125);
+    text-decoration: none;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands-list img {
+    height: 50px;
+}
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px 0;
+    color: rgb(59, 41, 110);
+}
+.store-front {
+    margin-right: 32px;
+}
+section h2 {
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+.methods {
+    display: flex;
+}
+section h3 {
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+section h4 {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+#products {
+    font-size: 20px;
+    margin-left: 20px;
+    width: 1000px;
+    height: 1000px;
+}
+section h5 {
+    margin-bottom: 16px;
+}
+section p {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.social-links img {
+    height: 24px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+#contact .container {
+    font-size: 35px;
+    display: block;
+}
+.contact-methods {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form .botao {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+section h6 {
+    margin-bottom: 16px;
+}
+.botao {
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(59, 41, 110);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: rgb(145, 115, 228);
+}
+input:focus,textarea:focus {
+    outline-color: rgb(79, 0, 124);
+}
+footer {
+    background-color: rgb(87, 85, 211);
+    color: rgb(255, 209, 125);
+    padding: 16px 0;
+}
